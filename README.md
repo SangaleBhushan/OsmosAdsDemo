@@ -630,6 +630,34 @@ The demo API can return advertisements without a destination URL. The implementa
 10. Error/fallback state
 11. Retry action
 
+## Screenshots
+ <img width="280" height="600" alt="Screenshot iPhone 18 Pro 22-09-2026 at 2 06 21 PM" src="https://github.com/user-attachments/assets/289529d6-71f7-4982-a5e0-a50b9b530e93" />
+ <img width="280" height="600" alt="Screenshot iPhone 18 Pro 22-09-2026 at 2 06 24 PM" src="https://github.com/user-attachments/assets/8d474870-622f-41c7-9e47-bce0a7af5cc1" />
+ <img width="280" height="600" alt="Screenshot iPhone 18 Pro 22-09-2026 at 2 06 29 PM" src="https://github.com/user-attachments/assets/5f4dab4b-e359-4217-9d54-af1e7d6a7bfc" />
+<img width="280" height="600" alt="Screenshot iPhone 18 Pro 22-09-2026 at 2 06 36 PM" src="https://github.com/user-attachments/assets/e5388950-b28d-47b0-8cb7-c67479c1eeb4" />
+<img width="280" height="600" alt="Screenshot iPhone 18 Pro 22-09-2026 at 2 40 46 AM" src="https://github.com/user-attachments/assets/233d7524-55ea-4a42-86a4-634ff63a427c" />
+## Demo Video
+
+
+https://github.com/user-attachments/assets/53ad8598-ac3d-4a0a-be40-c3f87ccc017f
+
+
+
+
+https://github.com/user-attachments/assets/e2082ec5-b5c3-499f-9dbf-a8a9d1db1767
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Final Notes
