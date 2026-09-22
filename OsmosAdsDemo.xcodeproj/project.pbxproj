@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41397A9C3061AB8400752983 /* osmos in Frameworks */ = {isa = PBXBuildFile; productRef = 41397A9B3061AB8400752983 /* osmos */; };
+		41397AFF30626C5300752983 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 41397AFE30626C5300752983 /* README.md */; };
+		41397B03306274DC00752983 /* .gitignore in Sources */ = {isa = PBXBuildFile; fileRef = 41397B02306274DB00752983 /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41397A4230619B7B00752983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41397A2C30619B7900752983 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41397A3330619B7900752983;
+			remoteInfo = OsmosAdsDemo;
+		};
+		41397A4C30619B7B00752983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41397A2C30619B7900752983 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41397A3330619B7900752983;
+			remoteInfo = OsmosAdsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41397A3430619B7900752983 /* OsmosAdsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OsmosAdsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41397A4130619B7B00752983 /* OsmosAdsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OsmosAdsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41397A4B30619B7B00752983 /* OsmosAdsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OsmosAdsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41397AFE30626C5300752983 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		41397B02306274DB00752983 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		41397A3630619B7900752983 /* OsmosAdsDemo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OsmosAdsDemo;
+			sourceTree = "<group>";
+		};
+		41397A4430619B7B00752983 /* OsmosAdsDemoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OsmosAdsDemoTests;
+			sourceTree = "<group>";
+		};
+		41397A4E30619B7B00752983 /* OsmosAdsDemoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OsmosAdsDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41397A3130619B7900752983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				41397A9C3061AB8400752983 /* osmos in Frameworks */,
+			);
+		};
+		41397A3E30619B7B00752983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		41397A4830619B7B00752983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41397A2B30619B7900752983 = {
+			isa = PBXGroup;
+			children = (
+				41397A3630619B7900752983 /* OsmosAdsDemo */,
+				41397A4430619B7B00752983 /* OsmosAdsDemoTests */,
+				41397A4E30619B7B00752983 /* OsmosAdsDemoUITests */,
+				41397A9A3061AB8400752983 /* Frameworks */,
+				41397AFE30626C5300752983 /* README.md */,
+				41397B02306274DB00752983 /* .gitignore */,
+				41397A3530619B7900752983 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41397A3530619B7900752983 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41397A3430619B7900752983 /* OsmosAdsDemo.app */,
+				41397A4130619B7B00752983 /* OsmosAdsDemoTests.xctest */,
+				41397A4B30619B7B00752983 /* OsmosAdsDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41397A9A3061AB8400752983 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41397A3330619B7900752983 /* OsmosAdsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41397A5330619B7B00752983 /* Build configuration list for PBXNativeTarget "OsmosAdsDemo" */;
+			buildPhases = (
+				41397A3030619B7900752983 /* Sources */,
+				41397A3130619B7900752983 /* Frameworks */,
+				41397A3230619B7900752983 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				41397A3630619B7900752983 /* OsmosAdsDemo */,
+			);
+			name = OsmosAdsDemo;
+			packageProductDependencies = (
+				41397A9B3061AB8400752983 /* osmos */,
+			);
+			productName = OsmosAdsDemo;
+			productReference = 41397A3430619B7900752983 /* OsmosAdsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41397A4030619B7B00752983 /* OsmosAdsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41397A5630619B7B00752983 /* Build configuration list for PBXNativeTarget "OsmosAdsDemoTests" */;
+			buildPhases = (
+				41397A3D30619B7B00752983 /* Sources */,
+				41397A3E30619B7B00752983 /* Frameworks */,
+				41397A3F30619B7B00752983 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41397A4330619B7B00752983 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				41397A4430619B7B00752983 /* OsmosAdsDemoTests */,
+			);
+			name = OsmosAdsDemoTests;
+			productName = OsmosAdsDemoTests;
+			productReference = 41397A4130619B7B00752983 /* OsmosAdsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41397A4A30619B7B00752983 /* OsmosAdsDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41397A5930619B7B00752983 /* Build configuration list for PBXNativeTarget "OsmosAdsDemoUITests" */;
+			buildPhases = (
+				41397A4730619B7B00752983 /* Sources */,
+				41397A4830619B7B00752983 /* Frameworks */,
+				41397A4930619B7B00752983 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41397A4D30619B7B00752983 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				41397A4E30619B7B00752983 /* OsmosAdsDemoUITests */,
+			);
+			name = OsmosAdsDemoUITests;
+			productName = OsmosAdsDemoUITests;
+			productReference = 41397A4B30619B7B00752983 /* OsmosAdsDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41397A2C30619B7900752983 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					41397A3330619B7900752983 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					41397A4030619B7B00752983 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 41397A3330619B7900752983;
+					};
+					41397A4A30619B7B00752983 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 41397A3330619B7900752983;
+					};
+				};
+			};
+			buildConfigurationList = 41397A2F30619B7900752983 /* Build configuration list for PBXProject "OsmosAdsDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41397A2B30619B7900752983;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				41397A943061A4AA00752983 /* XCRemoteSwiftPackageReference "osmos-ios-sdk-spm" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 41397A3530619B7900752983 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41397A3330619B7900752983 /* OsmosAdsDemo */,
+				41397A4030619B7B00752983 /* OsmosAdsDemoTests */,
+				41397A4A30619B7B00752983 /* OsmosAdsDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41397A3230619B7900752983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				41397AFF30626C5300752983 /* README.md in Resources */,
+			);
+		};
+		41397A3F30619B7B00752983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		41397A4930619B7B00752983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41397A3030619B7900752983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				41397B03306274DC00752983 /* .gitignore in Sources */,
+			);
+		};
+		41397A3D30619B7B00752983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		41397A4730619B7B00752983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41397A4330619B7B00752983 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41397A3330619B7900752983 /* OsmosAdsDemo */;
+			targetProxy = 41397A4230619B7B00752983 /* PBXContainerItemProxy */;
+		};
+		41397A4D30619B7B00752983 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41397A3330619B7900752983 /* OsmosAdsDemo */;
+			targetProxy = 41397A4C30619B7B00752983 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		41397A5130619B7B00752983 /* Debug configuration for PBXProject "OsmosAdsDemo" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = TDQ7NQ2KJ5;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41397A5230619B7B00752983 /* Release configuration for PBXProject "OsmosAdsDemo" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = TDQ7NQ2KJ5;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41397A5430619B7B00752983 /* Debug configuration for PBXNativeTarget "OsmosAdsDemo" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TDQ7NQ2KJ5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = "$(RECOMMENDED_IPHONEOS_DEPLOYMENT_TARGET)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.OsmosAdsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41397A5530619B7B00752983 /* Release configuration for PBXNativeTarget "OsmosAdsDemo" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TDQ7NQ2KJ5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = "$(RECOMMENDED_IPHONEOS_DEPLOYMENT_TARGET)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.OsmosAdsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		41397A5730619B7B00752983 /* Debug configuration for PBXNativeTarget "OsmosAdsDemoTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TDQ7NQ2KJ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.OsmosAdsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OsmosAdsDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OsmosAdsDemo";
+			};
+			name = Debug;
+		};
+		41397A5830619B7B00752983 /* Release configuration for PBXNativeTarget "OsmosAdsDemoTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TDQ7NQ2KJ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.OsmosAdsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OsmosAdsDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OsmosAdsDemo";
+			};
+			name = Release;
+		};
+		41397A5A30619B7B00752983 /* Debug configuration for PBXNativeTarget "OsmosAdsDemoUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TDQ7NQ2KJ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.OsmosAdsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OsmosAdsDemo;
+			};
+			name = Debug;
+		};
+		41397A5B30619B7B00752983 /* Release configuration for PBXNativeTarget "OsmosAdsDemoUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TDQ7NQ2KJ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.OsmosAdsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OsmosAdsDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41397A2F30619B7900752983 /* Build configuration list for PBXProject "OsmosAdsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41397A5130619B7B00752983 /* Debug configuration for PBXProject "OsmosAdsDemo" */,
+				41397A5230619B7B00752983 /* Release configuration for PBXProject "OsmosAdsDemo" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		41397A5330619B7B00752983 /* Build configuration list for PBXNativeTarget "OsmosAdsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41397A5430619B7B00752983 /* Debug configuration for PBXNativeTarget "OsmosAdsDemo" */,
+				41397A5530619B7B00752983 /* Release configuration for PBXNativeTarget "OsmosAdsDemo" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		41397A5630619B7B00752983 /* Build configuration list for PBXNativeTarget "OsmosAdsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41397A5730619B7B00752983 /* Debug configuration for PBXNativeTarget "OsmosAdsDemoTests" */,
+				41397A5830619B7B00752983 /* Release configuration for PBXNativeTarget "OsmosAdsDemoTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		41397A5930619B7B00752983 /* Build configuration list for PBXNativeTarget "OsmosAdsDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41397A5A30619B7B00752983 /* Debug configuration for PBXNativeTarget "OsmosAdsDemoUITests" */,
+				41397A5B30619B7B00752983 /* Release configuration for PBXNativeTarget "OsmosAdsDemoUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		41397A943061A4AA00752983 /* XCRemoteSwiftPackageReference "osmos-ios-sdk-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onlinesales-ai/osmos-ios-sdk-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		41397A9B3061AB8400752983 /* osmos */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41397A943061A4AA00752983 /* XCRemoteSwiftPackageReference "osmos-ios-sdk-spm" */;
+			productName = osmos;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 41397A2C30619B7900752983 /* Project object */;
+	validationLevel = 1;
+}
